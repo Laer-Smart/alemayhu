@@ -8,7 +8,7 @@ Build a system that can see, remember, and reason about the world using self-sup
 ## ✅ Phase 1: Foundation
 
 - [x] Define project scope and core principles
-- [ ] Set up codebase with modular architecture
+- [x] Set up codebase with modular architecture (LeCun 2022: perception, world model, cost, memory, actor, configurator)
 - [ ] Choose primary data sources (e.g. video, audio, text)
 - [ ] Implement basic data ingestion & preprocessing
 
@@ -32,9 +32,10 @@ Build a system that can see, remember, and reason about the world using self-sup
 
 ## 🧩 Phase 4: Reasoning
 
-- [ ] Implement forward world model (predict next state)
-- [ ] Add planning module (e.g. latent imagination, MCTS)
-- [ ] Evaluate in simulated environments (e.g. BabyAI, Crafter)
+- [x] Implement forward world model (JEPA: predict next state in representation space)
+- [x] Add planning module (Mode-2 latent imagination, beam-search MPC)
+- [x] Evaluate in a simulated environment (CodeWorld: agent writes code by planning)
+- [ ] Evaluate in richer environments (e.g. BabyAI, Crafter)
 
 ---
 
